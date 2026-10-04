@@ -1,5 +1,5 @@
 # =====================================================================
-# 1. COLD REPOSITORY RECOVERY & STORAGE INGESTION (STAGE 1: EXTRACT)
+# 1. DATA REPOSITORY RECOVERY & STORAGE INGESTION (STAGE 1: EXTRACT)
 # =====================================================================
 
 class pipeline:
@@ -43,15 +43,19 @@ class pipeline:
 
     def cleaning_data(self) -> None:
         """ 
-        Cleans whitespace from names, updates missing cities, and validates phone numbers. 
+        Cleans whitespace from names, updates missing cities with imputation flags, 
+        and validates phone numbers. 
         """
         for record in self.raw_data:
              # Task A: Stripping unnecessary padding character fields from string logs
              record["name"] = record["name"].strip()
 
-             # Task B: Imputing standard default tags into empty database fields (Null Fix)
+             # Task B: Imputing standard default tags and applying a tracking flag for audits
              if record["city"] is None:
                  record["city"] = "Unknown"
+                 record["is_imputed"] = True   
+             else:
+                 record["is_imputed"] = False  
 
              # Task C: Risk boundary assessment on string field length validation
              if len(record["phone"]) != 10:
