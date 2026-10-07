@@ -10,10 +10,6 @@ Managing an organization's payroll data tracks requires high precision and stric
 
 This project showcases a scalable payroll engine built using a modular class architecture. It establishes a secure corporate template framework that handles shared properties like compensation indexing and statutory tax requirements, while leveraging runtime inheritance and method overriding to automatically route custom payroll algorithms based on the employee's classification tier.
 
-### 🔐 Environment Initialization Checklist:
-1. **Repository Folder Setup:** Inside the main OOP projects repository, create a dedicated subdirectory named `08_Enterprise_Payroll_&_Office_Management_System` to isolate these office management suite assets cleanly [mLnPGq].
-2. **Core Source File:** Create a python runtime script file named `payroll_system.py` inside that workspace folder to house the operational class definitions [mLnPGq].
-3. **Documentation Layer:** Establish this root `README.md` file wrapper to guide technical recruiters through the system architecture maps and interface definitions [mLnPGq].
 
 ---
 
