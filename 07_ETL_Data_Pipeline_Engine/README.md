@@ -10,10 +10,7 @@ In enterprise software engineering and cloud data platforms, raw incoming stream
 
 This project provides an intuitive pipeline engine built to resolve these exact anomalies safely. It shifts processing away from loose functional scripting into a state-driven, modular class architecture layer that isolates raw dirty staging areas from final production data registers.
 
-### 🔐 Environment Initialization Checklist:
-1. **Repository Folder Setup:** Inside your main OOP projects repository, create a dedicated subdirectory named exactly `06_Production_ETL_Data_Pipeline_Engine` to isolate these big data suite assets cleanly.
-2. **Core Source File:** Create a python runtime script file named `etl_pipeline.py` inside that workspace folder to house the operational class definitions.
-3. **Documentation Layer:** Establish this master `README.md` file wrapper to guide technical recruiters through the data pipeline architecture flowcharts and transformation lifecycle pathways.
+
 
 ---
 
