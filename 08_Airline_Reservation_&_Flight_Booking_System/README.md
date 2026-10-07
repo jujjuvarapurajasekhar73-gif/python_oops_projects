@@ -10,10 +10,7 @@ In global aviation software design, security and structural compliance are criti
 
 This project showcases a secure reservation system built using an **Abstract Base Class (ABC)** architecture. It establishes a rigid structural contract layout that seals private attributes from external interference while leveraging runtime polymorphism to dispatch specific pricing matrices automatically based on the flight category container.
 
-### 🔐 Environment Initialization Checklist:
-1. **Repository Folder Setup:** Inside your main OOP projects repository, create a dedicated subdirectory named exactly `07_Airline_Reservation_&_Flight_Booking_System` to group these airline asset modules cleanly.
-2. **Core Source File:** Create a python runtime script file named `flight_booking.py` inside that workspace folder to house the class implementations.
-3. **Documentation Layer:** Establish this root `README.md` file wrapper to guide technical recruiters through the system architecture maps and interface definitions.
+
 
 ---
 
