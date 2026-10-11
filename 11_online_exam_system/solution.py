@@ -140,8 +140,7 @@ class ExamSectionRunner:
     @staticmethod
     def execute_section(section_name: str, questions: list) -> tuple:
         """
-        Serves questions one-by one. As requested by the user, the 3-minute lock 
-        is completely removed. It prints instant stats as soon as the 5 questions end.
+        Serves questions one-by one. As requested by the user, It prints instant stats as soon as the 5 questions end.
         """
         attempt_count = 0
         correct_count = 0
