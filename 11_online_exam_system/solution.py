@@ -200,7 +200,7 @@ class ExamEngine:
 
     def display_report_card(self) -> str:
         """
-        Renders finalized scorecard based on the requested 8.25 overall pass boundary criteria.
+        Renders finalized scorecard based on 8.25 overall pass boundary criteria.
         """
         status = "PASSED & CERTIFIED" if self.__total_score >= 8.25 else "FAILED / NON-CERTIFIED"
         
